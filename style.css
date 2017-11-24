@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f1f1f1;
+  width: 70%;
+  margin: auto;
+}
+/*div resume*/
+.resume {
+  width: 100%;
+}
+
+.data1 {
+  width: 50%;
+}
+
+.name {
+  font-size: 4em;
+  color: #0080FF;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.sizeBig {
+  font-size: 1em;
+  margin-top: 0;
+  margin: auto;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 100px;
+}
+
+.fa {
+  color: #0080FF;
+}
+
+/*div work*/
+.work {
+  width: 40%;
+
+}
+
+.date {
+  width: 25%;
+}
