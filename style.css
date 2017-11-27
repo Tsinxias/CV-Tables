@@ -1,12 +1,23 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #f1f1f1;
-  width: 70%;
+  background-color: #6E6E6E;
+  width: 90%;
   margin: auto;
+}
+.container {
+  background-color: #f1f1f1;
+  margin: auto;
+  padding-left: 11.5%;
 }
 /*div resume*/
 .resume {
-  width: 100%;
+  width: 9%;
+  background-color: #0080FF;
+  color: white;
+  font-size: 120%;
+  height: 30px;
+  text-align: center;
+  padding-top: 40px;
 }
 
 .data1 {
@@ -18,29 +29,145 @@ body {
   color: #0080FF;
   margin-bottom: 0;
   margin-top: 0;
+  font-weight: bold;
 }
 
 .sizeBig {
-  font-size: 1em;
+  font-size: 1.25em;
   margin-top: 0;
   margin: auto;
 }
 
 ul {
   list-style-type: none;
-  padding-left: 100px;
+  padding-left: -100px;
 }
 
 .fa {
   color: #0080FF;
 }
 
-/*div work*/
-.work {
-  width: 40%;
+.black {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 10px;
+}
 
+/*div job*/
+
+* {
+  vertical-align: top;
 }
 
 .date {
-  width: 25%;
+  width: 20%;
+  font-weight: bold;
+}
+
+.blue, .top {
+  vertical-align: top;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 110%;
+}
+
+.job {
+  padding-right: 15%;
+  padding-bottom: 30px;
+}
+
+.blue {
+  color: #0080FF;
+  font-weight: bold;
+}
+
+.blueSpace {
+  color: #0080FF;
+  font-weight: bold;
+  margin-bottom: auto;
+}
+
+.text {
+  font-weight: bold;
+  margin: 0;
+}
+
+.space {
+  padding-bottom: 30px;
+}
+
+.studies {
+  width: 100%;
+}
+
+.date1 {
+  width: 17%;
+  font-weight: bold;
+}
+
+/*div skills*/
+
+th {
+  padding-left: 10px;
+}
+
+.progress-bar {
+  padding-left: 10px;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+.bar-fill {
+  display: block;
+  height: 15px;
+  background-color: #0080FF;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.small {
+  font-size: 90%;
+  margin: 0;
+}
+
+.work {
+  display: flex;
+  justify-content: center;
+  height: 75px;
+  width: 75px;
+  background-color: #0080FF;
+  color: white;
+  font-weight: bold;
+  font-size: 110%;
+  opacity: 0.5;
+  transform: rotate(-60deg);
+  position: relative;
+  margin-top: 60px;
+  margin-left: -30px;
+}
+
+.play {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 75px;
+  width: 75px;
+  background-color: #0080FF;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 110%;
+  opacity: 0.5;
+  transform: rotate(-60deg);
+  position: relative;
+  margin-top: -75px;
+  margin-left: 20px;
+}
+
+.blueBorder {
+  height: 15px;
+  width: 100%;
+  background-color: #0080FF;
 }
